@@ -80,6 +80,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
 }
 
 .page-header {
@@ -144,12 +145,25 @@ span {
 
 .hero {
     /*outline: 2px solid tomato;*/
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url('/images/people-office.jpg');
-    background-size: cover;
-    background-color: #2E2F42 70 %;
+    background-color: #2E2F42;
 
     padding: 188px 0px;
     text-align: center;
+}
+
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), 
+        url('../images/people-office.png');    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2E2F42 70 %;
 }
 
 .hero-title {
